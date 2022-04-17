@@ -69,22 +69,7 @@ export default class RideScreen extends Component {
           var { bikeType, userName } = this.state;
 
           this.assignBike(bikeId, userId, bikeType, userName);
-          // For Android users only
-
-          {/* show(
-            'You have rented the bike for next 1 hour. Enjoy your ride!!',
-            ToastAndroid.SHORT
-          );*/}
-
-          {/* ToastAndroid.show(
-            'You have rented the bike for next 1 hour. Enjoy your ride!!',
-            ToastAndroid
-          );*/}
-
-          {/* ToastAndroid.show(
-            'You have rented the bike for next 1 hour. Enjoy your ride!!',
-             SHORT
-          );*/}
+          
 
            ToastAndroid.show(
             'You have rented the bike for next 1 hour. Enjoy your ride!!',
